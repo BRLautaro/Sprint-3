@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Fuente totalitaria pagina */
+}
+/* inicio Nav */
+
+    nav {
+        display: flex;
+        background-color: #658864;
+        justify-content: space-between;
+        -webkit-box-shadow: -1px 14px 25px 7px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 14px 25px 7px rgba(0,0,0,0.75);
+        box-shadow: -1px 14px 25px 7px rgba(0,0,0,0.75);
+    }
+
+.logo {
+    height: 130px;
+    width: 130px;
+}
+
+.presentacion{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    font-size: 40px;
+
+}
+
+.lista-nav {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.lista-nav li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.lista-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Fin del nav */
+
+
+.articulo img{
+    /* display: flex */
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+.container-caja{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+}
+.articulo {
+    border-radius: 10%;
+    height: 330px;
+    width: 300px;
+    background-color: green;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.header{
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
+footer{
+    display: flex;
+    margin-left: 15px;
+}
+
+.about{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    font-size: 60px;
+
+}
+
+.contact{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.quienes{
+    display: flex;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: x-large;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.contacto{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.formulario{
+    margin-left: 570px;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 30px;
+    background-color: #76d373;
+    width: 500px;
+    height: 400px;
+    border-radius: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 80px;
+    background-color:  #658864 ;
+}
